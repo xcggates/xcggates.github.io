@@ -2,6 +2,8 @@
 permalink: /
 title: "About Me"
 author_profile: true
+profile:
+  image: /images/Snapseed.jpg
 redirect_from: 
   - /about/
   - /about.html
