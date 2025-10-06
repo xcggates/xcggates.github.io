@@ -309,6 +309,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-scholar
   - jemoji
 
 # Mimic GitHub Pages with --safe
@@ -320,7 +321,13 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-
+scholar:
+  source: _bibliography
+  bibliography: papers.bib
+  style: apa   # or ieee/nature/etc.
+  sort_by: year
+  order: descending
+  
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
